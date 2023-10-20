@@ -1,0 +1,9 @@
+---
+layout: blog
+title: Post Two
+date: '2021-12-14'
+---
+
+Hello, I am _Post Two_
+
+**Nice to meet you!**
