@@ -44,11 +44,11 @@
         />
       </NavLi>
       <Dropdown class="w-44 z-20">
-        <DropdownItem href="/blogs">Ruby & Rails</DropdownItem>
-        <DropdownItem href="/blogs">Elixir & Phoenix</DropdownItem>
-        <DropdownItem href="/blogs">Crystal & Lucky</DropdownItem>
+        <DropdownItem href="/ruby">Ruby & Rails</DropdownItem>
+        <DropdownItem href="/elixir">Elixir & Phoenix</DropdownItem>
+        <DropdownItem href="/blog">Crystal & Lucky</DropdownItem>
         <DropdownDivider />
-        <DropdownItem href="/blogs">Technology</DropdownItem>
+        <DropdownItem href="/blog">Technology</DropdownItem>
       </Dropdown>
 
       <NavLi href="/blog">Blogs</NavLi>

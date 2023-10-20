@@ -6,7 +6,7 @@ export const fetchMarkdownRubyPosts = async () => {
     iterablePostFiles.map(async ([path, resolver]) => {
       const { metadata } = await resolver();
       const trimLocation = path.indexOf("+")
-      const postPath = path.replace('/src/routes/', '').replace('/+page.md', '');
+      const postPath = path.replace('/src/routes', '').replace('/+page.md', '');
       // const postPath = path.slice(11, -3);
 
       return {
