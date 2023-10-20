@@ -1,13 +1,13 @@
 <!-- +layout.svelte -->
 <script>
   import "../app.postcss";
-  import Header from "$lib/components/Header.svelte";
+  import MenuTop from "$lib/components/MenuTop.svelte";
   import "$lib/styles/style.css";
 </script>
 
-<Header />
+<MenuTop />
 
-<main>
+<main class="overflow-scroll pb-16">
   <slot />
 </main>
 
