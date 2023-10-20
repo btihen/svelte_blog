@@ -1,14 +1,15 @@
 <!-- +layout.svelte -->
 <script>
   import "../app.postcss";
-  import MenuTop from "$lib/components/MenuTop.svelte";
+  import Header from "$lib/components/Header.svelte";
+  import Footer from "$lib/components/Footer.svelte";
   import "$lib/styles/style.css";
 </script>
 
-<MenuTop />
+<Header />
 
 <main class="overflow-scroll pb-16">
   <slot />
 </main>
 
-<footer>Hello, I'm the footer.</footer>
+<Footer />
