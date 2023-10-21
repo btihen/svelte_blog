@@ -8,7 +8,7 @@
 
 <Header />
 
-<main class="overflow-scroll pb-16">
+<main class="w-11/12 max-w-screen-2xl">
   <slot />
 </main>
 
