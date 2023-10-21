@@ -1,4 +1,5 @@
 <script>
+  import Toggle from "$lib/components/Toggle.svelte";
   import {
     Navbar,
     NavBrand,
@@ -111,6 +112,7 @@
           &NonBreakingSpace; System Mode
         </DropdownItem>
       </Dropdown>
+      <Toggle />
     </NavUl>
   </Navbar>
   <div style="height:50px;" />
