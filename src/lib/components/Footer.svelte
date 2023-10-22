@@ -18,7 +18,7 @@
   } from "flowbite-svelte-icons";
 </script>
 
-<Footer class="bg-blue-50 border-t-4 border-red-400">
+<Footer class="bg-blue-50 border-t-4 border-red-400 dark:border-blue-300">
   <FooterCopyright href="/" by="btihen™" />
 
   <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">

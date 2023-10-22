@@ -30,7 +30,7 @@
 
 <div class="relative px-8">
   <Navbar
-    class="px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b-4 border-red-400 bg-blue-50"
+    class="px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b-4 border-red-400 dark:border-blue-300 bg-blue-50"
   >
     <NavBrand href="/">
       <!--
@@ -76,9 +76,7 @@
           class="w-4 h-4 text-gray-500 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white"
         />
       </NavLi>
-      <li>
-        <DarkMode {btnClass} />
-      </li>
+      <DarkMode {btnClass} />
       <!--
       <DarkMode>
         <SunSolid
