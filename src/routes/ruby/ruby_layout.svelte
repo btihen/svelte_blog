@@ -11,7 +11,7 @@ Install the "flowbite-typography" NPM package to apply styles and format the art
 URL: https://flowbite.com/docs/components/typography/
 -->
 <div class="grid grid-cols-12 w-11/12">
-  <div class="col-span-12 md:col-span-3">
+  <div class="col-span-12 md:col-span-3 border-r-4 border-red-200">
     <address class="flex items-center mb-6 not-italic">
       <div
         class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white"

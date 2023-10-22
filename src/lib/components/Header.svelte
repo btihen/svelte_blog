@@ -1,5 +1,7 @@
 <script>
-  import Toggle from "$lib/components/Toggle.svelte";
+  import { DarkMode } from "flowbite-svelte";
+  let btnClass =
+    "text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-sm text-sm";
   import {
     Navbar,
     NavBrand,
@@ -18,6 +20,7 @@
     AdjustmentsHorizontalOutline,
     SunOutline,
     MoonSolid,
+    SunSolid,
     ComputerSpeakerOutline,
     SearchOutline,
   } from "flowbite-svelte-icons";
@@ -69,11 +72,23 @@
 
       <NavLi href="/search">
         <SearchOutline
-          id="theme-toggle-dark-icon"
+          id="search"
           class="w-4 h-4 text-gray-500 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white"
         />
       </NavLi>
-
+      <li>
+        <DarkMode {btnClass} />
+      </li>
+      <!--
+      <DarkMode>
+        <SunSolid
+          class="w-4 h-4 text-gray-500 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white"
+        />
+        <MoonSolid
+          class="w-4 h-4 text-gray-500 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white"
+        />
+      </DarkMode>
+      -->
       <NavLi class="cursor-pointer">
         <AdjustmentsHorizontalOutline
           class="w-4 h-4 text-gray-500 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white"
@@ -112,7 +127,6 @@
           &NonBreakingSpace; System Mode
         </DropdownItem>
       </Dropdown>
-      <Toggle />
     </NavUl>
   </Navbar>
   <div style="height:50px;" />
