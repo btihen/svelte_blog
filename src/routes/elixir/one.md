@@ -1,5 +1,5 @@
 ---
-layout: elixr
+layout: elixir
 title: elixir One
 date: '2021-12-14'
 ---

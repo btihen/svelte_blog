@@ -1,4 +1,4 @@
-export const fetchMarkdownPages = async () => {
+export const fetchMarkdownPosts = async () => {
   const allPostFiles = import.meta.glob('/src/routes/**/*.md');
   const iterablePostFiles = Object.entries(allPostFiles);
 
