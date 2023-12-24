@@ -1,9 +1,5 @@
-// +server.js
-// export const GET = () => {
-// 	return new Response('Welcome to my API');
-// };
 // src/routes/api/posts/+server.js
-import { fetchMarkdownPosts } from '$lib/utils';
+import { fetchMarkdownPosts } from '$lib/utils/posts';
 import { json } from '@sveltejs/kit';
 
 export const GET = async () => {

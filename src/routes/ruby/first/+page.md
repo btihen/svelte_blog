@@ -7,11 +7,13 @@ tags: ['modularization', 'dependency inversion']
 summary: An exploration of Complex Apps organized with Private Modules
 ---
 
-# Contents
-
 ## Greetings
 
 Hello, I am _FIRST_ ruby
+
+### Mery Christmas
+
+### Guten Rutsch
 
 ## Intro
 

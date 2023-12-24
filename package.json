@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "^1.20.4",
     "autoprefixer": "^10.4.14",
     "flowbite-svelte-icons": "^0.4.4",
@@ -26,9 +27,7 @@
     "flowbite": "^1.8.1",
     "flowbite-svelte": "^0.44.18",
     "prismjs": "^1.29.0",
-    "rehype-slug": "^6.0.0",
-    "remark-toc": "^9.0.0",
-    "remark-unwrap-images": "^4.0.0",
+    "svelte-toc": "^0.5.6",
     "tailwind-merge": "^1.14.0"
   }
 }
