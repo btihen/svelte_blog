@@ -26,9 +26,11 @@
     "flowbite": "^1.8.1",
     "flowbite-svelte": "^0.44.18",
     "prismjs": "^1.29.0",
+    "rehype-autolink-headings": "^7.1.0",
     "rehype-slug": "^6.0.0",
     "remark-toc": "^9.0.0",
     "remark-unwrap-images": "^4.0.0",
+    "svelte-toc": "^0.5.6",
     "tailwind-merge": "^1.14.0"
   }
 }

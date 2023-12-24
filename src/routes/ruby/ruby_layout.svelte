@@ -1,5 +1,6 @@
 <!-- post.svelte -->
 <script>
+  import Toc from 'svelte-toc'
   export let author;
   export let title;
   export let date;
@@ -38,6 +39,8 @@ URL: https://flowbite.com/docs/components/typography/
         </div>
       </div>
     </address>
+    <h1>Contents</h1>
+    <Toc />
   </div>
   <div class="col-span-12 md:col-span-8 lg:col-span-9 pl-3">
     <article
