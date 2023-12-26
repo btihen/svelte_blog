@@ -39,19 +39,21 @@ URL: https://flowbite.com/docs/components/typography/
         </div>
       </div>
     </address>
-    <h1 class="text-xl font-bold text-gray-900 dark:text-white">Contents</h1>
-    <Toc
-      --toc-desktop-sticky-top="5.4em"
-      --toc-active-font-weight="bold"
-      --toc-li-hover-color="white"
-      --toc-desktop-bg="LightSteelBlue"
-      --toc-active-bg="LightSlateGray"
-      --toc-padding="0.7em"
-      --toc-li-color="black"
-      --toc-font-size="big"
-      title=""
-    />
+    <aside class="sticky top-20">
+      <h1 class="text-xl font-bold text-gray-900 dark:text-white">Contents</h1>
+      <Toc
+        --toc-active-font-weight="bold"
+        --toc-li-hover-color="white"
+        --toc-desktop-bg="LightSteelBlue"
+        --toc-active-bg="LightSlateGray"
+        --toc-padding="0.7em"
+        --toc-li-color="black"
+        --toc-font-size="big"
+        title=""
+      />
+    </aside>
   </div>
+
   <div class="col-span-12 md:col-span-8 lg:col-span-9 pl-3">
     <article
       class="max-w-none format format-sm sm:format-base lg:format-lg dark:format-invert"
